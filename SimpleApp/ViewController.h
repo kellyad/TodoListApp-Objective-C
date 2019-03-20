@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITabBarDelegate, UITableViewDataSource>
 
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *editButton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *addButton;
+
+- (IBAction)EditButtonPressed:(UIBarButtonItem *)sender;
+- (IBAction)AddButtonPressed:(UIBarButtonItem *)sender;
 
 @end
 

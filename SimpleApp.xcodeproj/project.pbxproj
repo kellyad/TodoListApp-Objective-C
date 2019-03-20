@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E707CAF3223F766300BF5424 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707CAF2223F766300BF5424 /* DetailViewController.m */; };
+		E707CAF8223F819300BF5424 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = E707CAF7223F819300BF5424 /* Tasks.m */; };
+		E707CAFA2240F70300BF5424 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E707CAF92240F70300BF5424 /* EditViewController.m */; };
 		E788FE4E223A1695005E8380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE4D223A1695005E8380 /* AppDelegate.m */; };
 		E788FE51223A1695005E8380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE50223A1695005E8380 /* ViewController.m */; };
 		E788FE54223A1695005E8380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E788FE52223A1695005E8380 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		E788FE5C223A1696005E8380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE5B223A1696005E8380 /* main.m */; };
 		E788FE66223A1696005E8380 /* SimpleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE65223A1696005E8380 /* SimpleAppTests.m */; };
 		E788FE71223A1696005E8380 /* SimpleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE70223A1696005E8380 /* SimpleAppUITests.m */; };
+		E788FE7F223A24FA005E8380 /* Household-Room-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E788FE7E223A24FA005E8380 /* Household-Room-icon.png */; };
+		E788FE81223A64C8005E8380 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E788FE80223A64C8005E8380 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E707CAF2223F766300BF5424 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E707CAF4223F767700BF5424 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E707CAF6223F778400BF5424 /* Tasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		E707CAF7223F819300BF5424 /* Tasks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
+		E707CAF92240F70300BF5424 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		E707CAFB2240F71400BF5424 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
 		E788FE49223A1695005E8380 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E788FE4C223A1695005E8380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E788FE4D223A1695005E8380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,9 @@
 		E788FE6C223A1696005E8380 /* SimpleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E788FE70223A1696005E8380 /* SimpleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleAppUITests.m; sourceTree = "<group>"; };
 		E788FE72223A1696005E8380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E788FE7E223A24FA005E8380 /* Household-Room-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Household-Room-icon.png"; sourceTree = "<group>"; };
+		E788FE80223A64C8005E8380 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		E788FE82223A64E1005E8380 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E707CAF5223F777200BF5424 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E707CAF6223F778400BF5424 /* Tasks.h */,
+				E707CAF7223F819300BF5424 /* Tasks.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E788FE40223A1695005E8380 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +124,23 @@
 		E788FE4B223A1695005E8380 /* SimpleApp */ = {
 			isa = PBXGroup;
 			children = (
+				E707CAF5223F777200BF5424 /* Model */,
+				E788FE52223A1695005E8380 /* Main.storyboard */,
+				E788FE7E223A24FA005E8380 /* Household-Room-icon.png */,
 				E788FE4C223A1695005E8380 /* AppDelegate.h */,
 				E788FE4D223A1695005E8380 /* AppDelegate.m */,
 				E788FE4F223A1695005E8380 /* ViewController.h */,
 				E788FE50223A1695005E8380 /* ViewController.m */,
-				E788FE52223A1695005E8380 /* Main.storyboard */,
 				E788FE55223A1696005E8380 /* Assets.xcassets */,
 				E788FE57223A1696005E8380 /* LaunchScreen.storyboard */,
 				E788FE5A223A1696005E8380 /* Info.plist */,
 				E788FE5B223A1696005E8380 /* main.m */,
+				E788FE82223A64E1005E8380 /* AddViewController.h */,
+				E788FE80223A64C8005E8380 /* AddViewController.m */,
+				E707CAF2223F766300BF5424 /* DetailViewController.m */,
+				E707CAF4223F767700BF5424 /* DetailViewController.h */,
+				E707CAF92240F70300BF5424 /* EditViewController.m */,
+				E707CAFB2240F71400BF5424 /* EditViewController.h */,
 			);
 			path = SimpleApp;
 			sourceTree = "<group>";
@@ -236,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E788FE59223A1696005E8380 /* LaunchScreen.storyboard in Resources */,
+				E788FE7F223A24FA005E8380 /* Household-Room-icon.png in Resources */,
 				E788FE56223A1696005E8380 /* Assets.xcassets in Resources */,
 				E788FE54223A1695005E8380 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E707CAF8223F819300BF5424 /* Tasks.m in Sources */,
+				E707CAF3223F766300BF5424 /* DetailViewController.m in Sources */,
 				E788FE51223A1695005E8380 /* ViewController.m in Sources */,
+				E707CAFA2240F70300BF5424 /* EditViewController.m in Sources */,
 				E788FE5C223A1696005E8380 /* main.m in Sources */,
+				E788FE81223A64C8005E8380 /* AddViewController.m in Sources */,
 				E788FE4E223A1695005E8380 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
